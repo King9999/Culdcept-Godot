@@ -1,0 +1,10 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1767892528
+icon.svg::CompressedTexture2D::2795934436481866412::1763579218::1763579225::1::::<><><>0<>0<>aea483aaadfcbb1a4cc71fed83d9b556<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Resources/::1767718270
+minion_goblin.tres::Resource/Minion::991959554805447776::1767718270::0::1::::<><><>0<>0<><>::uid://bem35hxacfaei::::res://Scripts/card_minion.gd
+::res://Scenes/::1767718427
+card.tscn::PackedScene::6582354287639252569::1767718427::0::1::::<><><>0<>0<><>::
+::res://Scripts/::1767720601
+card_data.gd::GDScript::2038118116187811995::1767720601::0::1::::CardData<>Resource<><>0<>0<><>::
+card_minion.gd::GDScript::2693702644105377688::1767718219::0::1::::Minion<>CardData<><>0<>0<><>::

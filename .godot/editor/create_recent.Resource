@@ -1,0 +1,3 @@
+Minion
+CardData
+Resource
