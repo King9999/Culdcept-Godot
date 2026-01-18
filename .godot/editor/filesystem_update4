@@ -1,4 +1,13 @@
 res://Scenes/card.tscn
-res://Resources/minion_goblin.tres
-res://Scripts/card_minion.gd
+res://Resources/Minions/minion_goblin.tres
 res://Scripts/card_data.gd
+res://Scripts/card_equipment.gd
+res://Resources/Equipment/equip_broadsword.tres
+res://Scripts/card_minion.gd
+res://Scripts/card_spell.gd
+res://Resources/Spells/test_spell.tres
+res://Scripts/entity.gd
+res://Scripts/entity_player.gd
+res://Scenes/board.tscn
+res://Scenes/player.tscn
+res://Scripts/card_scroll.gd

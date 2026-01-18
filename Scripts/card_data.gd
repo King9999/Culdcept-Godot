@@ -27,5 +27,11 @@ enum CardType { MINION, SPELL, SCROLL, EQUIPMENT, ENCHANTMENT }
 @export var card_effect_start_of_player_turn: CardEffect
 @export var card_effect_end_of_player_turn: CardEffect
 
-func _ready():
+
+@export_group("AI Behaviour")
+@export var weight: int		#determines the likelihood of the card being played.
+
+#This function executes whenever a CPU player wants to play a card. It checks the situation to see
+#if the card is suitable.	
+func ai_behaviour():
 	pass
