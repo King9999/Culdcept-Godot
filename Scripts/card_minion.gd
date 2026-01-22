@@ -30,7 +30,8 @@ enum MinionElement { FIRE, WATER, EARTH, AIR, NEUTRAL }
 @export var innate_attack_last: bool
 @export var innate_attack_first: bool
 @export var innate_regenerates: bool
-@export var innate_cannot_heal: bool
+@export var innate_feeble: bool			#minion can't be healed
+@export var innate_fast: bool			#minion can be used immediately after being summoned
 
 #critical vs element. Critical damage does 50% (1.5x) more damage against an element.
 @export_group("Criticals", "critical_hit_")
