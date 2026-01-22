@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Spell" load_steps=2 format=3 uid="uid://cep6camaay4yr"]
+
+[ext_resource type="Script" uid="uid://3ablgo5i8qr8" path="res://Scripts/card_spell.gd" id="1_uh6y7"]
+
+[resource]
+script = ExtResource("1_uh6y7")
+card_type = 1
+card_name = "Magic Missile"
+flavour_text = "Low cost projectile that does a little damage"
+magic_cost = 10
+metadata/_custom_type_script = "uid://3ablgo5i8qr8"

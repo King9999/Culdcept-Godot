@@ -10,6 +10,28 @@ enum MinionElement { FIRE, WATER, EARTH, AIR, NEUTRAL }
 @export var current_hit_points: float
 @export var attack_power: float
 
+#item restrictions prevent a minion from using item types.
+@export_group("Item Restrictions", "item_")
+@export var item_cannot_use_weapon: bool
+@export var item_cannot_use_armour: bool
+@export var item_cannot_use_jewellery: bool
+@export var item_cannot_use_scroll: bool
+
+#This also means that a land cannot be transformed to an element a minion can't inhabit.
+#A minion also cannot invade a land they can't inhabit.
+@export_group("Land Restrictions", "land_")
+@export var land_cannot_enter_fire: bool
+@export var land_cannot_enter_water: bool
+@export var land_cannot_enter_earth: bool
+@export var land_cannot_enter_air: bool
+
+@export_group("Innate Ability", "innate_")
+@export var innate_spellproof: bool
+@export var innate_attack_last: bool
+@export var innate_attack_first: bool
+@export var innate_regenerates: bool
+@export var innate_cannot_heal: bool
+
 #critical vs element. Critical damage does 50% (1.5x) more damage against an element.
 @export_group("Criticals", "critical_hit_")
 @export var critical_hit_fire: bool

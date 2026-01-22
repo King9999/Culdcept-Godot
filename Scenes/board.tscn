@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://t1le5ytoqdob"]
+
+[node name="Board" type="Node3D"]
