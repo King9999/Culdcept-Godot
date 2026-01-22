@@ -6,3 +6,4 @@ res://Scripts/card_scroll.gd
 res://Resources/minion_goblin.tres
 res://Scripts/card_behaviour.gd
 res://Scripts/card_minion.gd
+res://Scripts/entity_player.gd
