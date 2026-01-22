@@ -1,4 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
+<<<<<<< HEAD
 ::res://::1769103244
 icon.svg::CompressedTexture2D::2795934436481866412::1768696794::1768696794::1::::<><><>0<>0<>aea483aaadfcbb1a4cc71fed83d9b556<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1768696794::0::1::::<><><>0<>0<><>::
@@ -28,3 +29,33 @@ card_scroll.gd::GDScript::7056081600014868284::1768929566::0::1::::Scroll<>CardD
 card_spell.gd::GDScript::1965368320733059307::1768929566::0::1::::Spell<>CardData<><>0<>0<><>::
 entity.gd::GDScript::5528928816756650747::1768929566::0::1::::Entity<>Node<><>0<>0<><>::
 entity_player.gd::GDScript::2774271205931921898::1768929566::0::1::::Player<>Entity<><>0<>0<><>::
+=======
+::res://::1768679993
+icon.svg::CompressedTexture2D::2795934436481866412::1768672527::1768672527::1::::<><><>0<>0<>aea483aaadfcbb1a4cc71fed83d9b556<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1768672527::0::1::::<><><>0<>0<><>::
+::res://Resources/::1768680076
+test2.tres::Resource/Minion::4834764391660849006::1768672527::0::1::::<><><>0<>0<><>::uid://bem35hxacfaei::::res://Scripts/card_minion.gd
+test3.tres::Resource/Minion::5690879440442290055::1768672527::0::1::::<><><>0<>0<><>::uid://bem35hxacfaei::::res://Scripts/card_minion.gd
+test.tres::Resource/Minion::5374917871712281651::1768672527::0::1::::<><><>0<>0<><>::uid://bem35hxacfaei::::res://Scripts/card_minion.gd
+::res://Resources/AI Behaviours/::1768680076
+::res://Resources/Enchantment/::1768680047
+::res://Resources/Equipment/::1768683373
+equip_broadsword.tres::Resource/Equipment::1265768979232016160::1768683373::0::1::::<><><>0<>0<><>::uid://b2a2idivsn7rq::::res://Scripts/card_equipment.gd
+test_equip.tres::Resource/Equipment::6267913027073241679::1768682845::0::1::::<><><>0<>0<><>::uid://b2a2idivsn7rq::::res://Scripts/card_equipment.gd
+::res://Resources/Minions/::1768684945
+minion_goblin.tres::Resource/Minion::991959554805447776::1768684945::0::1::::<><><>0<>0<><>::uid://bem35hxacfaei::::res://Scripts/card_minion.gd
+::res://Resources/Scrolls/::1768680017
+::res://Resources/Spells/::1768685638
+test_spell.tres::Resource/Spell::5086448225151429109::1768685638::0::1::::<><><>0<>0<><>::uid://3ablgo5i8qr8::::res://Scripts/card_spell.gd
+::res://Scenes/::1768689489
+card.tscn::PackedScene::6582354287639252569::1768689692::0::1::::<><><>0<>0<><>::
+main.tscn::PackedScene::1387938494482645033::1768689723::0::1::::<><><>0<>0<><>::
+::res://Scripts/::1768689365
+card_data.gd::GDScript::2038118116187811995::1768680419::0::1::::CardData<>Resource<><>0<>0<><>::
+card_effect.gd::GDScript::2811516218391845706::1768672527::0::1::::CardEffect<>Resource<><>0<>0<><>::
+card_minion.gd::GDScript::2693702644105377688::1768684377::0::1::::Minion<>CardData<><>0<>0<><>::
+card_equipment.gd::GDScript::4283173277983141370::1768683373::0::1::::Equipment<>CardData<><>0<>0<><>::
+card_spell.gd::GDScript::1965368320733059307::1768686381::0::1::::Spell<>CardData<><>0<>0<><>::
+entity.gd::GDScript::5528928816756650747::1768686114::0::1::::Entity<>Node<><>0<>0<><>::
+entity_player.gd::GDScript::2774271205931921898::1768689365::0::1::::Player<>Entity<><>0<>0<><>::
+>>>>>>> origin/main

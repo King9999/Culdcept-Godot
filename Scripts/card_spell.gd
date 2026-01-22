@@ -1,12 +1,21 @@
 """
+<<<<<<< HEAD
 Spells are single-use cards that apply an effect to a minion, player, or land. Some spells may target the entire board. 
 Spells cannot be used in combat.
+=======
+Spells are single-target cards that apply an effect to a minion, player, or land. Cannot
+be used in combat.
+>>>>>>> origin/main
 """
 
 extends CardData
 class_name Spell
 
+<<<<<<< HEAD
 enum Target { PLAYER, MINION, LAND, GLOBAL }  #"Global" means the entire board is affected.
+=======
+enum Target { PLAYER, MINION, LAND }
+>>>>>>> origin/main
 @export var target: Target
 #@export_group("Targets", "target_")
 #@export var target_minion: bool

@@ -32,5 +32,14 @@ enum Rarity { COMMON, RARE, VERY_RARE, LEGENDARY }
 
 
 @export_group("AI Behaviour")
+<<<<<<< HEAD
 @export var ai_card_behaviour: CardBehaviour
 @export var weight: int		#determines the likelihood of the card being played.
+=======
+@export var weight: int		#determines the likelihood of the card being played.
+
+#This function executes whenever a CPU player wants to play a card. It checks the situation to see
+#if the card is suitable.	
+func ai_behaviour():
+	pass
+>>>>>>> origin/main
