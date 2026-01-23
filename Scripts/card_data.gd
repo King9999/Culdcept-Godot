@@ -1,18 +1,34 @@
 """
-Resource for all cards in the game
+Parent resource for all cards in the game
 """
 
 extends Resource
 class_name CardData
 
-enum CardType { MINION, SPELL, EQUIPMENT }
+#Enums
+enum CardType 
+{ 
+	MINION, ##Cards that can claim land and collect magic.
+	SPELL, ##Cards that are used once and then discarded. They can target specific things, or affect the whole board.
+	EQUIPMENT ##Cards that are applied to minions during combat. Equipment include weapons, armour, jewellery, and scrolls.
+}
+
+
+enum Rarity 
+{ 
+	COMMON,		##65% base drop rate 
+	UNCOMMON, 	##25% base drop rate
+	RARE, 		##8% base drop rate
+	LEGENDARY 	##2% base drop rate
+}
+
+
 @export var card_face: CompressedTexture2D
 @export var card_id: int			#used by game to set up cards from JSON file
 @export var card_type: CardType
 @export var card_name: String
-enum Rarity { COMMON, RARE, VERY_RARE, LEGENDARY }
-@export var card_rarity: Rarity
-@export var flavour_text: String 	#can be anything, such as lore
+@export var card_rarity: Rarity		##Determines the odds of receiving high-value cards when opening booster packs.[br]Booster packs contain at least 1 guaranteed uncommon card.
+@export var flavour_text: String 	##can be anything, such as lore
 
 
 @export_group("Card Costs")
@@ -29,6 +45,13 @@ enum Rarity { COMMON, RARE, VERY_RARE, LEGENDARY }
 @export var card_effect_end_of_combat: CardEffect
 @export var card_effect_start_of_player_turn: CardEffect
 @export var card_effect_end_of_player_turn: CardEffect
+
+#The following are reactive abilities that occur during combat.
+@export var card_effect_minion_takes_combat_damage: CardEffect
+@export var card_effect_minion_deals_combat_damage: CardEffect
+@export var card_effect_item_takes_combat_damage: CardEffect
+@export var card_effect_item_deals_combat_damage: CardEffect
+
 
 
 @export_group("AI Behaviour")

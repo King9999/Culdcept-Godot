@@ -1,28 +1,25 @@
 """
-Equipment cards are used by minions to temporarily boost their stats or apply some other effect.
-<<<<<<< HEAD
+Item cards are used by minions to temporarily boost their stats or apply some other effect.
 They are only used in combat, and are discarded when combat ends.
-=======
->>>>>>> origin/main
 """
 
 extends CardData
-class_name Equipment
+class_name Item
 
-<<<<<<< HEAD
-enum EquipmentType { WEAPON, ARMOUR, JEWELLERY, SCROLL }
-=======
-enum EquipmentType { WEAPON, ARMOUR, JEWELLERY }
->>>>>>> origin/main
-@export var equip_type: EquipmentType
+enum ItemType { WEAPON, ARMOUR, JEWELLERY, SCROLL }
+@export var equip_type: ItemType
 @export_group("Stat Mods", "mod_")
 @export var mod_hit_points: float
 @export var mod_attack_power: float
-<<<<<<< HEAD
 @export var scroll_power: float		#replaces a minion's attack power for the duration of combat.
 
-=======
->>>>>>> origin/main
+@export_group("Item Traits", "trait_")
+#@export var trait_spellproof: bool		#cannot be targeted by spells. Can still be hit by AOE spells
+@export var trait_attack_last: bool		#always attacks last even when invading a land
+@export var trait_attack_first: bool	#always attacks first even when defending a land
+@export var trait_regenerates: bool		#restored to full health after combat
+#@export var trait_feeble: bool			#minion can't be healed
+#@export var trait_fast: bool			#minion can be used immediately after being summoned
 
 #critical vs element. Critical damage does 50% (1.5x) more damage against an element.
 @export_group("Apply Criticals", "critical_hit_")
