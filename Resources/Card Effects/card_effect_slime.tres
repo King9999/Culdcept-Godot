@@ -1,0 +1,7 @@
+[gd_resource type="Resource" format=3 uid="uid://bj6tbcav3c5t"]
+
+[ext_resource type="Script" uid="uid://dd2u0j8udr7ph" path="res://Scripts/Card Effect/card_effect_slime.gd" id="1_2844w"]
+
+[resource]
+script = ExtResource("1_2844w")
+metadata/_custom_type_script = "uid://bgb6i5ecoe26a"

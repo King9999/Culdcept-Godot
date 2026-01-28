@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Minion" format=3 uid="uid://bmrjh8kugv7u7"]
+
+[ext_resource type="Script" uid="uid://bem35hxacfaei" path="res://Scripts/card_minion.gd" id="1_571lg"]
+
+[resource]
+script = ExtResource("1_571lg")
+element = 4
+max_hit_points = 50.0
+attack_power = 40.0
+item_cannot_use_weapon = true
+item_cannot_use_armour = true
+item_cannot_use_jewellery = true
+item_cannot_use_scroll = true
+trait_feeble = true
+card_name = "Slime"
+card_rarity = 1
+magic_cost = 70
+card_cost = 1
+metadata/_custom_type_script = "uid://bem35hxacfaei"

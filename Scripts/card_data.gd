@@ -41,14 +41,19 @@ enum Rarity
 
 #conditional card effects
 @export_group("Card Effect Triggers", "card_effect_")
-@export var card_effect_start_of_combat: CardEffect
-@export var card_effect_end_of_combat: CardEffect
 @export var card_effect_start_of_player_turn: CardEffect
 @export var card_effect_end_of_player_turn: CardEffect
 
 #The following are reactive abilities that occur during combat.
+@export_subgroup("Combat", "card_effect_")
+@export var card_effect_start_of_combat: CardEffect
+@export var card_effect_end_of_combat: CardEffect
 @export var card_effect_minion_takes_combat_damage: CardEffect
 @export var card_effect_minion_deals_combat_damage: CardEffect
+@export var card_effect_minion_dies: CardEffect
+
+#Item triggers
+@export_subgroup("Items", "card_effect_")
 @export var card_effect_item_takes_combat_damage: CardEffect
 @export var card_effect_item_deals_combat_damage: CardEffect
 

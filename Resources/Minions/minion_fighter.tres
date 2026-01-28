@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Minion" format=3 uid="uid://cvovukyybbfcu"]
+
+[ext_resource type="Script" uid="uid://bem35hxacfaei" path="res://Scripts/card_minion.gd" id="1_13svy"]
+
+[resource]
+script = ExtResource("1_13svy")
+element = 4
+max_hit_points = 40.0
+attack_power = 40.0
+card_id = 1
+card_name = "Fighter"
+metadata/_custom_type_script = "uid://bem35hxacfaei"

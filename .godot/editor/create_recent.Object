@@ -1,5 +1,8 @@
+res://Scripts/card_effect.gd
+Resource
+Node3D
+Object
 CardData
 Entity
-Resource
 CardData
 Entity

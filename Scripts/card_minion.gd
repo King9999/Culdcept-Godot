@@ -59,3 +59,6 @@ enum MinionElement { FIRE, WATER, EARTH, AIR, NEUTRAL }
 
 func _ready() -> void:
 	current_hit_points = max_hit_points
+
+func on_death():
+	pass

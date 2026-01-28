@@ -1,5 +1,8 @@
-res://Scenes
-res://Resources/Minions
-res://Resources/Spells
-res://Resources/Equipment
+res://Resources/Card Effects/
+res://Scripts/Card Effect/
+res://Scripts/
+res://Resources/Minions/
+res://Scenes/
+res://Resources/Spells/
+res://Resources/Equipment/
 res://Resources/

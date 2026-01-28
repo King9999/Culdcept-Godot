@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Minion" load_steps=2 format=3 uid="uid://oerot4cxl7eq"]
+[gd_resource type="Resource" script_class="Minion" format=3 uid="uid://oerot4cxl7eq"]
 
 [ext_resource type="Script" uid="uid://bem35hxacfaei" path="res://Scripts/card_minion.gd" id="1_0mp0d"]
 
@@ -8,6 +8,7 @@ element = 4
 max_hit_points = 30.0
 current_hit_points = 30.0
 attack_power = 20.0
+item_cannot_use_scroll = true
 card_name = "Goblin"
 flavour_text = "This is a goblin"
 magic_cost = 20

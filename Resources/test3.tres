@@ -1,7 +1,0 @@
-[gd_resource type="Resource" script_class="Minion" load_steps=2 format=3 uid="uid://cncx7nug67v1p"]
-
-[ext_resource type="Script" uid="uid://bem35hxacfaei" path="res://Scripts/card_minion.gd" id="1_tnqs7"]
-
-[resource]
-script = ExtResource("1_tnqs7")
-metadata/_custom_type_script = "uid://bem35hxacfaei"
