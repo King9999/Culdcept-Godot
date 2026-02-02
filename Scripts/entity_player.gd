@@ -1,5 +1,6 @@
 """
-The Player entity is player-controlled, either by humans or the CPU.
+The Player entity is player-controlled, either by humans or the CPU. Players collect magic, move around the board,
+and battle other players using cards.
 """
 
 extends Entity
