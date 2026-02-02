@@ -5,6 +5,7 @@ The Player entity is player-controlled, either by humans or the CPU.
 extends Entity
 class_name Player
 
+@export var player_name: String
 @export var curent_magic_amount: int #amount of magic that can be spent.
 @export var magic_total: int		#accumulated amount of magic. This value does not decrease
 @export var active_player: bool		#if true, it's this player's turn.
