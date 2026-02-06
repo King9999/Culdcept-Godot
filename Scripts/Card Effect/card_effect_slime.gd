@@ -5,6 +5,7 @@ and Attack Power.
 """
 
 extends CardEffect
+class_name CardEffect_Slime
 #extends Resource
 
 @export var death_count: int			#tracks how many times Slime has been killed.
@@ -12,4 +13,5 @@ extends CardEffect
 
 func _init():
 	death_count = 0
+	#activate_card_effect(slime, slime)
 	#print("SlimeAttack Power: ", slime.attack_power)

@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770047585
+::res://::1770395666
 icon.svg::CompressedTexture2D::2795934436481866412::1770047542::1770047542::1::::<><><>0<>0<>aea483aaadfcbb1a4cc71fed83d9b556<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1770047542::0::1::::<><><>0<>0<><>::
 ::res://Resources/::1770047542
@@ -14,11 +14,11 @@ minion_goblin.tres::Resource/Minion::991959554805447776::1770047542::0::1::::<><
 minion_slime.tres::Resource/Minion::3264341932296926800::1770047542::0::1::::<><><>0<>0<><>::uid://bem35hxacfaei::::res://Scripts/card_minion.gd
 ::res://Resources/Spells/::1770047542
 test_spell.tres::Resource/Spell::5086448225151429109::1770047542::0::1::::<><><>0<>0<><>::uid://3ablgo5i8qr8::::res://Scripts/card_spell.gd
-::res://Scenes/::1770047542
+::res://Scenes/::1770047619
 board.tscn::PackedScene::1387938494482645033::1770047542::0::1::::<><><>0<>0<><>::
 card.tscn::PackedScene::6582354287639252569::1770047542::0::1::::<><><>0<>0<><>::
-player.tscn::PackedScene::4450776372919060926::1770047542::0::1::::<><><>0<>0<><>::uid://bfr43ux1xnfhq::::res://Scripts/entity_player.gd
-::res://Scripts/::1770047542
+player.tscn::PackedScene::4450776372919060926::1770047619::0::1::::<><><>0<>0<><>::uid://bfr43ux1xnfhq::::res://Scripts/entity_player.gd
+::res://Scripts/::1770047619
 card_behaviour.gd::GDScript::633115317288717616::1770047542::0::1::::CardBehaviour<>Resource<><>0<>0<><>::
 card_data.gd::GDScript::2038118116187811995::1770047542::0::1::::CardData<>Resource<><>0<>0<><>::
 card_effect.gd::GDScript::2811516218391845706::1770047542::0::1::::CardEffect<>Resource<><>0<>0<><>::
@@ -27,6 +27,6 @@ card_minion.gd::GDScript::2693702644105377688::1770047542::0::1::::Minion<>CardD
 card_scroll.gd::GDScript::7056081600014868284::1770047542::0::1::::Scroll<>CardData<><>0<>0<><>::
 card_spell.gd::GDScript::1965368320733059307::1770047542::0::1::::Spell<>CardData<><>0<>0<><>::
 entity.gd::GDScript::5528928816756650747::1770047542::0::1::::Entity<>Node<><>0<>0<><>::
-entity_player.gd::GDScript::2774271205931921898::1770047542::0::1::::Player<>Entity<><>0<>0<><>::
+entity_player.gd::GDScript::2774271205931921898::1770047619::0::1::::Player<>Entity<><>0<>0<><>::
 ::res://Scripts/Card Effect/::1770047542
 card_effect_slime.gd::GDScript::7426826290658086141::1770047542::0::1::::<>CardEffect<><>0<>0<><>::

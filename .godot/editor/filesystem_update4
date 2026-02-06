@@ -1,2 +1,10 @@
 res://Scenes/player.tscn
 res://Scripts/entity_player.gd
+res://Scripts/card_item.gd
+res://Resources/Card Effects/card_effect_slime.tres
+res://Scripts/Card Effect/card_effect_slime.gd
+res://Resources/Minions/minion_slime.tres
+res://Scenes/board.tscn
+res://Scenes/card.tscn
+res://Scripts/card.gd
+res://Scripts/board.gd

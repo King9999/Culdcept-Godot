@@ -1,4 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://c01sob6gupfef"]
+[gd_scene format=3 uid="uid://c01sob6gupfef"]
+
+[ext_resource type="Script" uid="uid://dkn33vquw7fcq" path="res://Scripts/card.gd" id="1_0qqmn"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gmcdd"]
 
@@ -7,17 +9,18 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_wf8id"]
 size = Vector3(1.5235596, 1.4910889, 1)
 
-[node name="Card" type="StaticBody3D"]
+[node name="Card" type="StaticBody3D" unique_id=1809180881]
+script = ExtResource("1_0qqmn")
 
-[node name="Face" type="MeshInstance3D" parent="."]
+[node name="Face" type="MeshInstance3D" parent="." unique_id=1494171199]
 material_override = SubResource("StandardMaterial3D_gmcdd")
 mesh = SubResource("QuadMesh_0qqmn")
 
-[node name="Back" type="MeshInstance3D" parent="."]
+[node name="Back" type="MeshInstance3D" parent="." unique_id=1723711732]
 transform = Transform3D(-0.99999994, 0, -8.742277e-08, 0, 1, 0, 8.742277e-08, 0, -0.99999994, 0, 0, -0.01)
 material_override = SubResource("StandardMaterial3D_gmcdd")
 mesh = SubResource("QuadMesh_0qqmn")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1759760843]
 transform = Transform3D(-0.66, -9.9657235e-08, 0, 9.9657235e-08, -0.66, 0, 0, 0, 0.109, 0, 0, 0)
 shape = SubResource("BoxShape3D_wf8id")
