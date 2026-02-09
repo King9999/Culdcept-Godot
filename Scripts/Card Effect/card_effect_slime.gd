@@ -9,9 +9,20 @@ class_name CardEffect_Slime
 #extends Resource
 
 @export var death_count: int			#tracks how many times Slime has been killed.
-#@onready var slime: Minion = get_parent()
+var slime: Minion
 
-func _init():
+func _ready():
 	death_count = 0
-	#activate_card_effect(slime, slime)
-	#print("SlimeAttack Power: ", slime.attack_power)
+	
+func activate_card_effect(active_minion: Minion, opponent: Minion = null) -> Minion:
+	death_count += 1
+	print("Slime has died {0} times!".format([death_count]))
+	if death_count < 3:
+		#revive slime with 50% less HP and AP
+		active_minion.max_hit_points /= 2
+		active_minion.current_hit_points = active_minion.max_hit_points
+		active_minion.attack_power /= 2
+		print("Slime has revived.")
+		return active_minion
+	else:
+		return null

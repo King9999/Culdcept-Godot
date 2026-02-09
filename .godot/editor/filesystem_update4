@@ -1,10 +1,11 @@
-res://Scenes/player.tscn
-res://Scripts/entity_player.gd
-res://Scripts/card_item.gd
-res://Resources/Card Effects/card_effect_slime.tres
-res://Scripts/Card Effect/card_effect_slime.gd
+res://Scenes/battle_screen.tscn
 res://Resources/Minions/minion_slime.tres
-res://Scenes/board.tscn
 res://Scenes/card.tscn
+res://Resources/Minions/minion_fighter.tres
 res://Scripts/card.gd
-res://Scripts/board.gd
+res://Scripts/battle_screen.gd
+res://Resources/Minions/minion_goblin.tres
+res://Scripts/card_minion.gd
+res://Scripts/Card Effect/card_effect_slime.gd
+res://game_manager.gd
+res://Scripts/card_effect.gd

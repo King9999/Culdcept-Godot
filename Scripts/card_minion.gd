@@ -9,6 +9,7 @@ enum MinionElement { FIRE, WATER, EARTH, AIR, NEUTRAL }
 @export var max_hit_points: float
 @export var current_hit_points: float
 @export var attack_power: float
+@export var status_effect: CardEffect			#A minion can only have 1 effect at a time. Any new effect will overwrite the old one.
 
 #item restrictions prevent a minion from using item types.
 @export_group("Item Restrictions", "item_")
@@ -57,7 +58,7 @@ enum MinionElement { FIRE, WATER, EARTH, AIR, NEUTRAL }
 @export var pierce_earth: bool
 @export var pierce_air: bool
 
-func _ready() -> void:
+func _init() -> void:
 	current_hit_points = max_hit_points
 
 func on_death():

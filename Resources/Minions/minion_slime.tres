@@ -11,6 +11,7 @@ metadata/_custom_type_script = "uid://dd2u0j8udr7ph"
 script = ExtResource("1_571lg")
 element = 4
 max_hit_points = 50.0
+current_hit_points = 20.0
 attack_power = 40.0
 item_cannot_use_weapon = true
 item_cannot_use_armour = true

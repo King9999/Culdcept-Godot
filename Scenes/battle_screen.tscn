@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://sdeulrn8jw3m"]
+
+[ext_resource type="Script" uid="uid://6rdtv5pn5y7k" path="res://Scripts/battle_screen.gd" id="1_4vnsc"]
+[ext_resource type="PackedScene" uid="uid://c01sob6gupfef" path="res://Scenes/card.tscn" id="2_tjlxq"]
+[ext_resource type="Resource" uid="uid://cvovukyybbfcu" path="res://Resources/Minions/minion_fighter.tres" id="2_uiajs"]
+[ext_resource type="Resource" uid="uid://bmrjh8kugv7u7" path="res://Resources/Minions/minion_slime.tres" id="3_guxe6"]
+
+[node name="Battle Screen" type="Node3D" unique_id=521150253 node_paths=PackedStringArray("card_attacker", "card_defender")]
+script = ExtResource("1_4vnsc")
+attacker_minion = ExtResource("2_uiajs")
+defender_minion = ExtResource("3_guxe6")
+card_attacker = NodePath("Attacker")
+card_defender = NodePath("Defender")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=854165476]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.5917192)
+current = true
+
+[node name="Environment" type="Node" parent="." unique_id=841239038]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Environment" unique_id=1148936473]
+transform = Transform3D(1, 0, 0, 0, 0.74963766, 0.6618485, 0, -0.6618485, 0.74963766, 0, 3.6049037, 5.5792828)
+
+[node name="Attacker" parent="." unique_id=1809180881 instance=ExtResource("2_tjlxq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8236701, 0, 0)
+card_data = ExtResource("2_uiajs")
+
+[node name="Defender" parent="." unique_id=72859937 instance=ExtResource("2_tjlxq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9148494, 0, 0)
+card_data = ExtResource("3_guxe6")
+
+[node name="HUD" type="Control" parent="." unique_id=574877747]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Attacker HP" type="Label" parent="HUD" unique_id=519068214]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Defender HP" type="Label" parent="HUD" unique_id=1797966199]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Attacker AP" type="Label" parent="HUD" unique_id=762024307]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Defender AP" type="Label" parent="HUD" unique_id=213289457]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

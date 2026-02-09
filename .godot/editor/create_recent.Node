@@ -1,4 +1,9 @@
+DirectionalLight3D
 Node
+Node3D
+Camera3D
+Label
+Control
 CollisionShape3D
 MeshInstance3D
 StaticBody3D
